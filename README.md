@@ -1,36 +1,195 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfólio V3
 
-## Getting Started
+<p align="center">
+  Meu portfólio pessoal desenvolvido com Next.js, TypeScript e Tailwind CSS.
+</p>
 
-First, run the development server:
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Phosphor_Icons-111111?style=for-the-badge" />
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🌐 Deploy
+
+🔗 **Acesse o projeto:**
+[Adicione aqui o link do deploy]
+
+---
+
+## 📖 Sobre o projeto
+
+O **Portfólio V3** foi desenvolvido com o objetivo de apresentar meus projetos, habilidades, experiências e trajetória como desenvolvedor de software.
+
+O projeto foi construído utilizando tecnologias modernas do ecossistema React, focando em:
+
+* Performance
+* Responsividade
+* SEO
+* Organização de código
+* Componentização
+* Experiência do usuário
+
+Além de funcionar como vitrine profissional, o projeto também demonstra minhas habilidades práticas no desenvolvimento de interfaces modernas utilizando Next.js e Tailwind CSS.
+
+---
+
+## ✨ Funcionalidades
+
+* ✅ Página inicial moderna
+* ✅ Sessão de apresentação profissional
+* ✅ Listagem de projetos
+* ✅ Tecnologias e habilidades
+* ✅ Experiências profissionais
+* ✅ Links para redes sociais
+* ✅ Design responsivo
+* ✅ Navegação fluida
+* ✅ Componentes reutilizáveis
+* ✅ SEO otimizado
+* ✅ Interface moderna com ícones Phosphor
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+### 🚀 Front-end
+
+* Next.js
+* React.js
+* TypeScript
+* Tailwind CSS
+* Phosphor Icons
+* HTML5
+* CSS3
+
+### 🧰 Ferramentas
+
+* Git
+* GitHub
+* Figma
+* Vercel
+* VS Code
+
+---
+
+## 🎨 UI & Design
+
+O projeto utiliza a biblioteca **Phosphor Icons** para construção visual da interface, proporcionando:
+
+* Interface moderna
+* Ícones escaláveis
+* Compatibilidade com React
+* Excelente performance
+* Suporte a TypeScript
+* Diferentes estilos de ícones
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash id="iqq2wy"
+src/
+├── app/
+├── components/
+├── assets/
+├── styles/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Responsividade
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto foi desenvolvido seguindo o conceito **Mobile First**, garantindo compatibilidade com:
 
-## Learn More
+* 📱 Smartphones
+* 📱 Tablets
+* 💻 Notebooks
+* 🖥️ Desktop
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚡ Performance
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O projeto foi otimizado utilizando recursos modernos do Next.js:
 
-## Deploy on Vercel
+* Renderização otimizada
+* Componentização reutilizável
+* Carregamento rápido
+* SEO otimizado
+* Código escalável
+* Estilização eficiente com Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Como executar localmente
+
+### Clone o repositório
+
+```bash id="zjylwe"
+git clone https://github.com/joaosilvateixeira33/portifolioV3.git
+```
+
+### Acesse a pasta do projeto
+
+```bash id="c5bg5q"
+cd portifolioV3
+```
+
+### Instale as dependências
+
+```bash id="41fmbd"
+npm install
+```
+
+### Execute o projeto
+
+```bash id="3w0b14"
+npm run dev
+```
+
+### Acesse no navegador
+
+```bash id="0v3qor"
+http://localhost:3000
+```
+---
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto, foi possível aprofundar conhecimentos em:
+
+* Estruturação de projetos Next.js
+* Componentização React
+* Tailwind CSS
+* Responsividade
+* SEO
+* Boas práticas de front-end
+* Organização de código
+* TypeScript
+* Design de interfaces
+
+---
+
+## 🔗 Redes sociais
+
+* GitHub: https://github.com/joaosilvateixeira33
+* LinkedIn: https://www.linkedin.com/in/jo%C3%A3o-silva-fullstack/
+* Portfólio: [Adicione o link do deploy]
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por João Silva Teixeira.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+Sinta-se livre para estudar, utilizar como referência e contribuir.

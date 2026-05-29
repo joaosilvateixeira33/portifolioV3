@@ -1,14 +1,18 @@
 import { ArrowUpRightIcon } from "@phosphor-icons/react";
 import { ReactNode } from "react";
 
-type ContactCardProps ={
+type ContactCardProps = {
     icon: ReactNode;
     title: string;
+    link: string; // <-- Adicionamos a propriedade link aqui
 }
 
-export default function ContactCard({ icon, title }: ContactCardProps) {
+export default function ContactCard({ icon, title, link }: ContactCardProps) {
     return(
-        <div 
+        <a 
+            href={link}
+            target="_blank" // Abre o link em uma nova aba
+            rel="noopener noreferrer" // Boa prática de segurança para links externos
             className="
                 flex 
                 items-center
@@ -39,10 +43,9 @@ export default function ContactCard({ icon, title }: ContactCardProps) {
                 </h4>
            </div>
            
-           {/* Adicionada uma leve animação na seta ao passar o mouse (hover) */}
            <div className="text-[#3996DB] transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300">
                <ArrowUpRightIcon size={24} weight="bold"/>
            </div>
-        </div>
+        </a>
     )
 }

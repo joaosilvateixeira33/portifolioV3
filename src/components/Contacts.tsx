@@ -5,7 +5,7 @@ export default function Contacts(){
         <section 
             className='
                 min-h-screen 
-                bg-[url("/contacts.png")]
+                bg-[url("/assets/contacts.png")]
                 bg-cover
                 bg-center
                 bg-no-repeat
@@ -35,7 +35,6 @@ export default function Contacts(){
                     </p>
                 </div>
                 
-                {/* Envolvendo a lista em um w-full para garantir adaptação no grid interno */}
                 <div className="w-full">
                     <ContactsList/>     
                 </div>

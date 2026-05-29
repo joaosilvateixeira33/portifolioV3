@@ -8,24 +8,28 @@ export default function ContactsList(){
     const contacts = [
         {
             icon: <LinkedinLogoIcon size={25}/>,
-            title: "Linkedin"
+            title: "Linkedin",
+            link: "https://www.linkedin.com/in/jo%C3%A3o-silva-fullstack/"
         },
         {
             icon: <InstagramLogoIcon size={25}/>,
-            title: "Instagram"
+            title: "Instagram",
+            link: "https://instagram.com/joaosilva.dev"
         },
         {
             icon: <GithubLogoIcon size={25}/>,
-            title: "GitHub"
+            title: "GitHub",
+            link: "https://github.com/joaosilvateixeira33"
         },
         {
             icon: <EnvelopeSimpleIcon size={25}/>,
-            title: "E-mail"
+            title: "E-mail",
+            link: "mailto:joaoteixeirasilva33@gmail.com"
         },
     ]
 
     return(
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 w-full max-w-4xl mx-auto">
+        <div className="flex flex-col gap-4 md:gap-5 w-full max-w-md mx-auto">
             {
                 contacts.map(
                     (contact, index) =>(
@@ -33,6 +37,7 @@ export default function ContactsList(){
                             key={index} 
                             icon={contact.icon} 
                             title={contact.title}
+                            link={contact.link} // <-- Passando a propriedade nova aqui
                         />
                     )
                 )
