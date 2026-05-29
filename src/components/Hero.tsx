@@ -25,7 +25,7 @@ export default function Hero(){
             '
         >
             <Image 
-                src="/foto.png" 
+                src="/assets/foto.png" 
                 alt="profile" 
                 width={100} 
                 height={100} 
