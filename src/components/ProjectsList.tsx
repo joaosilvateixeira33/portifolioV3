@@ -4,32 +4,32 @@ export default function ProjectsList(){
 
     const projects = [
         { 
-            image:"/tbn-project-01.png", 
+            image:"/assets/tbn-project-01.png", 
             title:"Travelgram",
             description:"Rede social onde as pessoas mostram os registros de suas viagens pelo mundo"  
         },
         { 
-            image:"/tbn-project-02.png", 
+            image:"/assets/tbn-project-02.png", 
             title:"Tech News",
             description:"Homepage de um portal de notícias sobre a área de tecnologia"  
         },
         { 
-            image:"/tbn-project-03.png", 
+            image:"/assets/tbn-project-03.png", 
             title:"Página de receita",
             description:"Página com o passo a passo de uma receita para cupcakes"  
         },
         { 
-            image:"/tbn-project-04.png", 
+            image:"/assets/tbn-project-04.png", 
             title:"Zinguem",
             description:"Landing Page completa e responsiva de um aplicativo de Karaokê"  
         },
         { 
-            image:"/tbn-project-05.png", 
+            image:"/assets/tbn-project-05.png", 
             title:"Refund",
             description:"Um sistema para pedido e acompanhamento de reembolso"  
         },
         { 
-            image:"/tbn-project-06.png", 
+            image:"/assets/tbn-project-06.png", 
             title:"Página de turismo",
             description:"Página com as principais informações para quem quer viajar para Busan"  
         },
