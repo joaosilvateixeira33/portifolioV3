@@ -178,7 +178,7 @@ Durante o desenvolvimento deste projeto, foi possível aprofundar conhecimentos 
 
 * GitHub: https://github.com/joaosilvateixeira33
 * LinkedIn: https://www.linkedin.com/in/jo%C3%A3o-silva-fullstack/
-* Portfólio: [Adicione o link do deploy]
+* Portfólio: https://portifolio-green-chi-49.vercel.app/
 
 ---
 
