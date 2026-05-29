@@ -48,23 +48,23 @@ export default function Hero(){
 
             <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 mt-4">
                 <div className="flex flex-col items-center gap-1">
-                    <Image src="/assets/GitHub.svg" alt="GitHub icon" width={30} height={30}/>
+                    <Image src="/assets/github.svg" alt="GitHub icon" width={30} height={30}/>
                     <p className="text-xs md:text-sm">Github</p>
                 </div>
                 <div className="flex flex-col items-center gap-1">
-                    <Image src="/assets/HTML.svg" alt="HTML icon" width={30} height={30}/>
+                    <Image src="/assets/html.svg" alt="HTML icon" width={30} height={30}/>
                     <p className="text-xs md:text-sm">HTML</p>
                 </div>
                 <div className="flex flex-col items-center gap-1">
-                    <Image src="/assets/CSS.svg" alt="CSS icon" width={30} height={30}/>
+                    <Image src="/assets/css.svg" alt="CSS icon" width={30} height={30}/>
                     <p className="text-xs md:text-sm">CSS</p>
                 </div>
                 <div className="flex flex-col items-center gap-1">
-                    <Image src="/assets/JavaScript.svg" alt="JavaScript icon" width={30} height={30}/>
+                    <Image src="/assets/javascript.svg" alt="JavaScript icon" width={30} height={30}/>
                     <p className="text-xs md:text-sm">Javascript</p>
                 </div>
                 <div className="flex flex-col items-center gap-1">
-                    <Image src="/assets/React.svg" alt="React icon" width={30} height={30}/>
+                    <Image src="/assets/react.svg" alt="React icon" width={30} height={30}/>
                     <p className="text-xs md:text-sm">React</p>
                 </div>
             </div>
