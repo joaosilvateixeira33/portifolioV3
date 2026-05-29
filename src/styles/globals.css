@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inconsolata: var(--font-inconsolata);
+  --font-maven: var(--font-maven);
+  --font-asap: var(--font-asap);
+}
+
+@layer components {
+  .stack{
+    @apply 
+      flex items-center
+      bg-[#292C34] 
+      p-2.5 
+      rounded-2xl
+      space-x-1
+      font-[family-name:var(--font-maven)]
+      text-[16px]
+  }
+
+  .my-p{
+    @apply
+      font-[family-name:var(--font-inconsolata)]
+      text-red-500 
+      text-[20px]
+  }
+
+  .my-h3{
+    @apply
+      font-[family-name:var(--font-maven)] 
+      text-[24px] 
+      font-bold
+
+  }
+
+  .card-title {
+    @apply
+      font-[family-name:var(--font-maven)]
+      text-[16px] 
+    }
+    .card-description {
+      @apply
+        font-[family-name:var(--font-maven)]
+        text-[14px]
+        text-[#C0C4CE]
+      
+  }
+}
