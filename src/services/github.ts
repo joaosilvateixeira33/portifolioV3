@@ -60,10 +60,5 @@ export async function getPinnedProjects() {
 
   const data = await response.json();
 
-  if (data.errors) {
-    console.error("GitHub GraphQL:", data.errors);
-    return [];
-  }
-
-  return data?.data?.user?.pinnedItems?.nodes ?? [];
+  return data.data.user.pinnedItems.nodes;
 }
