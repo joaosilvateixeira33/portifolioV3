@@ -60,5 +60,8 @@ export async function getPinnedProjects() {
 
   const data = await response.json();
 
-  return data.data.user.pinnedItems.nodes;
+  console.log("STATUS:", response.status);
+  console.log("DATA:", JSON.stringify(data, null, 2));
+
+  return data?.data?.user?.pinnedItems?.nodes ?? [];
 }
