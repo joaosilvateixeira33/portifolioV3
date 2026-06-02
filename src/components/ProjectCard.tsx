@@ -1,15 +1,20 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type ProjectCardProps = {
     image: string;
     title: string;
     description: string;
+    githubLink: string;
+    homepageUrl: string;
 }
 
 export default function ProjectCard({
     image,
     title,
-    description
+    description,
+    githubLink,
+    homepageUrl
 }: ProjectCardProps ){
     return(
         <div 
@@ -39,7 +44,7 @@ export default function ProjectCard({
                 className="w-full h-auto rounded-xl object-cover"
             />
 
-            <div className="flex flex-col items-center text-center w-full gap-2 mt-2">
+            <div className="flex flex-col items-center text-center w-full gap-4 mt-2">
                 <h4 className="card-title text-lg sm:text-xl font-bold">
                     {title}
                 </h4>
@@ -47,6 +52,9 @@ export default function ProjectCard({
                 <p className="card-description text-sm text-[#878EA1]">
                     {description}
                 </p>
+
+                <Link href={githubLink}>Repositorio</Link>
+                <Link href={homepageUrl}>Ver Projeto</Link>
             </div>
         </div>
     )
